@@ -16,7 +16,7 @@ openshift_docker_insecure_registries: []
 openshift_docker_ent_reg: 'registry.redhat.io'
 
 openshift_docker_options: False  # str
-openshift_docker_log_driver: False  # str
+openshift_docker_log_driver: 'json-file'  # str
 openshift_docker_log_options_defaults:
   json-file:
   - "max-size=50m"
